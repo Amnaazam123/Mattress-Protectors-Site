@@ -1,0 +1,225 @@
+.header{
+    background-color: whitesmoke;
+}
+
+.mainHeading{
+    text-align: center;
+}
+.icon a{
+    color: white;
+}
+.navigationBar{
+    position: relative;
+    top: -10px;
+    overflow: hidden;
+    padding: 0% 15%;
+}
+.navigationBar i{
+    float: right;
+    position: relative;
+    top: 7px;
+    margin-right:20px
+}
+a{
+    text-decoration: none;
+    float: left;
+    margin: 0% 1.5%;
+    color: black;
+}
+.navigationBar input[type=text]{
+   float: right;
+   border-radius: 15px;
+   height: 5%;
+   width: 24%;
+   border: 0.5px solid rgb(212, 212, 212);
+   padding: 8px;
+    margin-right: 15px;
+}
+.footer{
+    grid-area: child4;
+    padding: 5% 14%;
+    height: 35%;
+    display: grid;
+    color: white;
+    background-color: rgb(20 35 54);
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 'c1 c2 c3'
+                         'c4 c4 c4'
+                         'c5 c5 c5';
+}
+.line{
+    grid-area: c4;
+}
+.end{
+    grid-area: c5;
+}
+.footer-col1{
+    grid-area: c1;
+    flex-grow: 1;
+}
+.footer-col2{
+    grid-area: c2;
+    flex-grow: 1;
+    margin-left: 5%;
+    color: white;
+}
+.footer-col3{
+    grid-area: c3;
+    padding-top: 2%;
+    flex-grow: 1;
+    margin-left: 5%;
+}
+.txxt{
+    margin-top: 1.5%;
+    float: left;
+}
+.icon{
+    float: right;
+    margin: 1.5%;
+}
+li{
+    list-style-type: none;
+}
+li i{
+margin-right: 5%;
+}
+p a{
+    color: white;
+}
+ul{
+    padding: 0%;
+}
+
+.parent{
+    width: 100%;
+    height: 190%;
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 140%;
+    position: relative;
+}
+.child{
+    width: 63%;
+    height: 97%;
+    background-color: rgb(228, 228, 228);
+    position: absolute;
+    top: 3%;
+    left: 20%;
+    border: 1px solid black;
+    border-radius: 3%;
+}
+.contact{
+    text-align: center;
+    text-decoration: underline;
+}
+form{
+    text-align: center;
+}
+form input,textarea{
+    width: 70%;
+    margin: 1%;
+    height: 3.5%;
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 8px;
+    padding-left: 2%;
+}
+textarea{
+    height: 10%;
+}
+form button{
+width: 40%;
+height: 3%;
+border-radius:18px;
+border: 1px solid rgb(117, 117, 117);
+}
+.parent2{
+    display: flex;
+    text-align: center;
+    width: 68%;
+    height: 35%;
+    margin: 0 auto;
+    position: relative;
+    left: 5%;
+}
+.c1{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    transform: skewY(-23deg);
+    box-shadow: 0px 10px 10px rgb(185 186 187);
+    position: relative;
+    top: 20%;
+    border-radius: 4%;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.c1 img{
+    height: 60%;
+    border-radius: 500px;
+}
+.c2 img{
+    height: 60%;
+    border-radius: 500px;
+}
+.c3 img{
+    height: 60%;
+    border-radius: 500px;
+}
+.c2{
+    font-family: sans-serif;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 38%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    box-shadow:0px 10px 10px rgb(185 186 187);
+    border-radius: 6%;
+}
+.c3{
+    font-family: sans-serif;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    transform: skewY(23deg);
+    box-shadow: 0px 10px 10px rgb(185 186 187);
+    position: relative;
+    top: 20%;
+    border-radius: 4%;
+    font-size: 15px;
+}
+.name{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 7%;
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.info{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    height: 15%;
+    margin: 4%;
+    padding-top: 5%;
+    row-gap: 8%;
+}
+.phone,.phoneNo{
+    border-bottom: 1px solid rgb(77, 77, 77);
+}
+.id{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    font-family: sans-serif;
+}

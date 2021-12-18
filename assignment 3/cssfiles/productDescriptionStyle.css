@@ -1,0 +1,187 @@
+.header{
+    background-color: whitesmoke;
+}
+
+.mainHeading{
+    text-align: center;
+}
+.navigationBar{
+    position: relative;
+    top: -10px;
+    overflow: hidden;
+    padding: 0% 15%;
+}
+.navigationBar i{
+    float: right;
+    position: relative;
+    top: 7px;
+    margin-right:20px
+}
+a{
+    text-decoration: none;
+    float: left;
+    margin: 0% 1.5%;
+    color: black;
+}
+.navigationBar input[type=text]{
+   float: right;
+   border-radius: 15px;
+   height: 5%;
+   width: 24%;
+   border: 0.5px solid rgb(212, 212, 212);
+   padding: 8px;
+    margin-right: 15px;
+}
+.parent{
+    border: 1px solid black;
+    width: 100%;
+    height: 150%;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+.child1{
+    text-align: center;
+}
+.availability{
+    clear: both;
+}
+.leftImage{
+    width: 350px;
+    height: 300px;
+   
+}
+.description{
+    width: 600px;
+    height: 100px;
+    float: right;
+    text-align:center;
+    margin-right: 100px;
+    position: relative;
+    top: -30px;
+    font-size: 20px;
+}
+.child2{
+    float: left;
+    margin-left: 185px;
+}
+.pricing{
+    clear: both;
+    float: right;
+    margin-right: 25%;
+}
+.pricing table{
+    border: 1px solid black;
+    width: 300%;
+    height: 15%;
+    position: relative;
+    right:100%;
+}
+
+.pricing tr:nth-child(odd) {background-color: #d6d6d6;}
+.pricing th{
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+.pricing td{
+    text-align: center;
+}
+.availability table{
+    border: 1px solid black;
+    width: 200%;
+    height: 15%;
+    position: relative;
+    right: 45%;
+}
+.btn{
+    clear: both;
+    float: right;
+    position: relative;
+    right: 33%;
+    margin-top: 1%;
+}
+button{
+    width: 256%;
+    height: 3%;
+    font-size: 17px;
+}
+.availability tr:nth-child(odd) {background-color: #d6d6d6;}
+.availability th{
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+.availability td{
+    text-align: center;
+}
+
+.availability{
+    float: right;
+    margin-right: 25%;
+}
+
+.footer{
+    grid-area: child4;
+    padding: 5% 14%;
+    height: 35%;
+    display: grid;
+    color: white;
+    background-color: rgb(20 35 54);
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 'c1 c2 c3'
+                         'c4 c4 c4'
+                         'c5 c5 c5';
+}
+.line{
+    grid-area: c4;
+}
+.end{
+    grid-area: c5;
+}
+.footer-col1{
+    grid-area: c1;
+    flex-grow: 1;
+}
+.footer-col2{
+    grid-area: c2;
+    flex-grow: 1;
+    margin-left: 5%;
+    color: white;
+}
+.footer-col3{
+    grid-area: c3;
+    padding-top: 2%;
+    flex-grow: 1;
+    margin-left: 5%;
+}
+.txxt{
+    margin-top: 1.5%;
+    float: left;
+}
+.icon{
+    float: right;
+    margin: 1.5%;
+}
+li{
+    list-style-type: none;
+}
+li i{
+margin-right: 5%;
+}
+p a{
+    color: white;
+}
+ul{
+    padding: 0%;
+}
+.smallchild{
+    float: left;
+    margin-left: 23%;
+    margin-top: -15%;
+}
+.smallchildimg{
+    width: 70%;
+    height: 10%;
+} 
+.icon a{
+    color: white;
+}

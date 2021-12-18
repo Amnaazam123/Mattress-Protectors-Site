@@ -1,0 +1,154 @@
+.header{
+    background-color: whitesmoke;
+}
+
+.mainHeading{
+    text-align: center;
+}
+.navigationBar{
+    position: relative;
+    top: -10px;
+    overflow: hidden;
+    padding: 0% 15%;
+}
+.navigationBar i{
+    float: right;
+    position: relative;
+    top: 7px;
+    margin-right:20px
+}
+a{
+    text-decoration: none;
+    float: left;
+    margin: 0% 1.5%;
+    color: black;
+}
+.navigationBar input[type=text]{
+   float: right;
+   border-radius: 15px;
+   height: 5%;
+   width: 24%;
+   border: 0.5px solid rgb(212, 212, 212);
+   padding: 8px;
+    margin-right: 15px;
+}
+
+.inner{
+      width: 70%;
+      height: 90%;  
+      background-color: #ededed;
+      position: absolute;
+      left: 20%;
+      top: 20px;  
+      display: grid; 
+      grid-template-columns: 25% 25% 25%;
+      grid-template-rows: auto auto;
+      column-gap: 2%;
+}
+.icon a{
+    color: white;
+}
+.outerParent{
+    position: relative;
+    top: -1px;
+    text-align: center;
+   width: 100%;
+   height: 140%;
+   background-color:#ededed ;
+}
+.child1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 20px;
+    font-size: 12px;
+}
+.child1Img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius:20px;
+    border-top-right-radius: 20px;
+}
+.child1-child1{
+    flex-flow: 1;
+    width: 100%;
+    height: 80%;
+}
+.child1-child2{
+    flex-flow: 1;
+    background-color: white;
+}
+.child1-child3{
+    flex-flow: 1;
+    border-top:0.3px solid rgb(200, 200, 200);
+    height: 12%;
+    padding-top: 5%;
+}
+button{
+    height: 70%;
+    color: green;
+    position: relative;
+    left: 47%;
+    border-radius: 10px;
+    border:0.5px solid green;
+    padding: 4px;
+    width: 130%;
+    font-size: 15px;
+}
+
+li{
+    list-style-type: none;
+}
+li i{
+margin-right: 5%;
+}
+p a{
+    color: white;
+}
+ul{
+    padding: 0%;
+}
+.footer{
+    width: 72%;
+    grid-area: child4;
+    padding: 5% 14%;
+    height: 35%;
+    display: grid;
+    color: white;
+    background-color: rgb(20 35 54);
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 'c1 c2 c3'
+                         'c4 c4 c4'
+                         'c5 c5 c5';
+}
+.line{
+    grid-area: c4;
+}
+.end{
+    grid-area: c5;
+}
+.footer-col1{
+    grid-area: c1;
+    flex-grow: 1;
+}
+.footer-col2{
+    grid-area: c2;
+    flex-grow: 1;
+    margin-left: 5%;
+    color: white;
+}
+.footer-col3{
+    grid-area: c3;
+    padding-top: 2%;
+    flex-grow: 1;
+    margin-left: 5%;
+}
+.txxt{
+    float: left;
+    margin-top: 1.5%;
+}
+.icon{
+    float: right;
+    margin: 1.5%;
+}
