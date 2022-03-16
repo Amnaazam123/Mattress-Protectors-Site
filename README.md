@@ -1,3 +1,3 @@
 # mySite!
 
-[Uploading image.png…]()
+[Upload image.png…]()
